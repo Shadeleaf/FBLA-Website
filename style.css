@@ -1,0 +1,97 @@
+body{
+    background-image:url("pictures/front image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
+    margin:auto;
+}
+
+#title{
+    width:70%;
+    text-align: left;
+    margin-left:10%;
+    margin-top:10%;
+    font-size:170%;
+}
+  
+#title h1{
+    color: #F1BA0A;
+}
+
+#title button{
+    border:#F1BA0A 3px solid;
+    background-color:black;
+    padding:5px;
+    font-size:60%;
+    cursor:pointer;
+    transition-duration:.4s;
+    text-decoration:none;
+}
+
+button a{
+    text-decoration:none;
+    color:#F1BA0A;
+    font-family: 'Jost', sans-serif;
+  }
+
+button:hover{
+    background-color:#F1BA0A;
+    border:#A70B0B;
+}
+
+button a:hover{
+    color:#A70B0B;
+  }
+
+a{
+    cursor:pointer;
+  }
+
+#slideshow{
+    background-color:#F1BA0A;
+    padding:10%;
+    font-size:150%;
+}
+
+#slideshow button a{
+    color:black;
+    font-size:150%;
+}
+
+#slideshow button{
+    background-color:#F1BA0A;
+    border:black 3px solid;
+}
+
+#parallax{
+    background-image: url("pictures/parallax1.jpg");
+    min-height:100px;
+    color:#F1BA0A;
+    font-size:500%:
+    padding:5%;
+}
+
+@media (min-width: 1000px){
+    #title{
+        font-size:300%;
+        margin-top:10%;
+    }
+
+    body{
+        background-image:url("pictures/front image desktop.jpg");
+    }
+
+    #slideshow{
+        font-size:300%;
+    }
+
+    #slideshow h1{
+        margin-top:-5%;
+    }
+
+    #slideshow button{
+        font-size:100%;
+    }
+}
+  
