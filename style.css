@@ -68,8 +68,8 @@ a{
     background-image: url("pictures/parallax1.jpg");
     min-height:100px;
     color:#F1BA0A;
-    font-size:500%:
-    padding:5%;
+    font-size:200%;
+    padding:10%;
 }
 
 @media (min-width: 1000px){
